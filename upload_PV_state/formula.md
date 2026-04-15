@@ -36,6 +36,6 @@ JxB force is easy in the ideal MHD simulation \\
 In the MHD-AEPIC, please know the mi/me mass ratio: s and the scaling factor: scaling
 1. Calculator. Ui_vec = Uix * iHat + Uiy * jHat + Uiz*kHat
 2. Calculator. Ue_vec = Uex * iHat + Uey * jHat + Uez*kHat
-3. Calculator. J_vec = (rhoi * Ui_vec - rhoe * Ue_vec * s ) * 1e15 / 1.6 / 10^-19 / scaling
+3. Calculator. J_vec = (rhoi * Ui_vec - rhoe * Ue_vec * s ) * 1e15 * 1.6 * 10^-19 / scaling
 4. Calculator. B_vec = Bx * iHat + By * jHat + Bz * kHat
 5. Calculator. JxB = cross(J_vec, B_vec) 
